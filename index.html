@@ -167,18 +167,18 @@ Assist with production of clean and functional design
 	<p>EMAIL:<a href="mailto:weptimug@gmail.com">weptimug@gmail.com</a></p>
 </div>
 	</div>
-<form id="contact-form" action="weptimug@gmail.com" method="get">
+<form id="contact-form" action="POST" data-netlify="true">
 	<div>
 <label>your name:</label>
-<input type="text" class="username" placeholder="eg.timothy">
+<input type="text" class="username" name="username" placeholder="eg.timothy">
 </div>
 <div>
 <label>your email:</label>
-<input type="email" class="useremail" placeholder="eg.hello@weptim.com">
+<input type="email" class="useremail" name="email" placeholder="eg.hello@weptim.com">
 </div>
 <div class="bleed">
 <label>message:</label>
-<textarea></textarea>
+<textarea name="message"></textarea>
 <input type="submit" value="send" class="btn">
 </div>
 </form>
