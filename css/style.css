@@ -40,7 +40,7 @@ padding:0;
 	color: #fff;
 	text-transform: uppercase;
 }
-.about-me-skills-bleed h3 {
+.about-me-skills-bleed{
 	text-align:center;
 }
 .what-i-use {
@@ -157,7 +157,7 @@ textarea {
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 85vh;
+	height: 100vh;
 	color: #fff;
 	display: flex;
 	flex-direction: column;
@@ -225,6 +225,10 @@ grid-template-columns:1fr;
 #showcase .btn {
 	margin: 1em 0;
 }
+	#showcase {
+	height:100vh;	
+		
+	}
 }
 /*tablets*/
 @media screen and (max-width: 800px){
