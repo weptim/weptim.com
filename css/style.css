@@ -43,6 +43,11 @@ padding:0;
 	color: #fff;
 	text-transform: uppercase;
 }
+.learn-more-btn:hover {
+	background:#f4f4f4;
+	border:none;
+	color:#111;
+}
 .about-me-skills-bleed{
 	text-align:center;
 }
@@ -116,11 +121,11 @@ cursor: pointer;
 }
 /* work */
 #work {
-	padding-top: 5em;
+	padding-top: 10em;
 }
 /* services */
 #services {
-	padding-top: 5em;
+	padding-top: 10em;
 }
 #services article {
 	box-shadow: 5px 5px 10px lightgrey;
@@ -129,7 +134,7 @@ cursor: pointer;
 }
 /* contact */
 #contact {
-	padding:5em 0em;
+	padding:10em 0em;
 }
 #contact form {
 	display: grid;
