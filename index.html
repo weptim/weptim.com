@@ -172,7 +172,7 @@ Assist with production of clean and functional design
 </div>
 <div class="bleed">
 <label>message:</label>
-<textarea name="message" id="msg"></textarea>
+<textarea name="message" id="msg" required></textarea>
 	<p class="validateMsg"></p>
 <input type="submit" value="send" class="btn">
 </div>
@@ -227,8 +227,8 @@ menu.style.display = "block";
 			validateMsg.textContent = "you can't leave this blank";
 			return false;
 		}else {
+			validateMsg.style.display = "none";
 			return true;
-			validateMsg.innerHTML = "";
 		}
 	}
 </script>
