@@ -92,6 +92,14 @@ grid-column:1/-1;
 	font-size: 2em;
 	text-transform: uppercase;
 }
+input:focus {
+	border:none;
+	background:#eee;
+}
+textarea:focus {
+	border:none;
+	background:#eee;
+}
 .title p {
 	font-size: 1em;
 	text-transform: capitalize;

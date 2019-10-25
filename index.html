@@ -164,15 +164,16 @@ Assist with production of clean and functional design
 <form id="contact-form" action="POST" data-netlify="true">
 	<div>
 <label>your name:</label>
-<input type="text" class="username" name="username" placeholder="eg.timothy" required>
+<input type="text" class="username" name="username" placeholder="eg.timothy">
 </div>
 <div>
 <label>your email:</label>
-<input type="email" class="useremail" name="email" placeholder="eg.hello@weptim.com" required>
+<input type="email" class="useremail" name="email" placeholder="eg.hello@weptim.com">
 </div>
 <div class="bleed">
 <label>message:</label>
-<textarea name="message" required></textarea>
+<textarea name="message" id="msg"></textarea>
+	<p class="validateMsg"></p>
 <input type="submit" value="send" class="btn">
 </div>
 </form>
@@ -212,6 +213,24 @@ if (menu.style.display === "block") {
 menu.style.display = "block";	
 }
 }
+	//form 
+	var form = document.querySelector("#contact-form");
+	form.addEventListener("submit", validateForm);
+	function validateForm(e){
+		e.preventDefault;
+		var name = document.querySelector(".username").value;
+		var email = document.querySelector(".useremail").value;
+		var msg = document.querySelector("#msg").value;
+		var validateMsg = document.querySelector(".validateMsg");
+		validateMsg.style.color = "red";
+		if(name === "" || email === ""){
+			validateMsg.textContent = "you can't leave this blank";
+			return false;
+		}else {
+			return true;
+			validateMsg.innerHTML = "";
+		}
+	}
 </script>
 </body>
 </html>
