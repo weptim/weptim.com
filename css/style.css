@@ -148,6 +148,7 @@ color:#fff;
 #services h3 {
 text-transform:capitalize;
 padding:1em 0;
+text-decoration:underline;
 }
 .desc {
 padding:1em 0;	
