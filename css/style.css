@@ -198,9 +198,7 @@ textarea {
 	justify-content: center;
 	align-items: center;
 }
-#showcase p {
-		font-size: 1.5em;
-	}
+
 /*about*/
 #about {
 	padding-top:4em;
@@ -301,6 +299,9 @@ display:block;
 height:50vh;
 text-align: center;
 }
+	#showcase p {
+		font-size: 1.5em;
+	}
 #showcase .btn {
 	border: 1px solid #fff;
 }
