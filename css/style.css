@@ -138,12 +138,20 @@ cursor: pointer;
 #services article {
 	box-shadow: 5px 5px 10px lightgrey;
 	text-align:center;
-	padding:4em 2em;
+	padding:2em 1em;
 	transition:background 1s;
 }
 #services article:hover {
 background:#2098d1;
 color:#fff;
+}
+#services h3 {
+text-transform:capitalize;
+padding:1em 0;
+}
+.desc {
+padding:1em 0;	
+	
 }
 /* contact */
 #contact {
