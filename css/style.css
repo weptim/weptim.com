@@ -151,7 +151,7 @@ cursor: pointer;
 }
 input {
 width: 100%;
-padding: 0.5em 0em;
+padding: 1em;
 }
 input:focus {
 	outline: none;
@@ -164,6 +164,8 @@ textarea {
 	padding: 5em 0;
 }
 .btn {
+	font-weight:bold;
+	text-transform:uppercase;
 	border: none;
 }
 /*showcase*/
