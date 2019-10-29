@@ -148,11 +148,15 @@ color:#fff;
 #services h3 {
 text-transform:capitalize;
 padding:1em 0;
-color:#2098d1;
+}
+.icon {
+color:#2098d1;	
+}
+.icon:hover {
+color:#fff;	
 }
 .desc {
-padding:1em 0;	
-	
+padding:1em 0;		
 }
 /* contact */
 #contact {
