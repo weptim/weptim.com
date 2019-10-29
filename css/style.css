@@ -144,9 +144,6 @@ padding:1em 0;
 .icon {
 color:#2098d1;	
 }
-.icon:hover {
-color:#fff;	
-}
 .desc {
 padding:1em 0;		
 }
@@ -201,6 +198,7 @@ textarea {
 }
 .about-me-skills-bleed {
 	grid-column: 1 / -1;
+	padding:0;
 }
 
 #work .container{
